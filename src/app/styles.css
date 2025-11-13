@@ -6,7 +6,7 @@
   --bg-primary: #191970;
   --bg-secondary: #f0f8ff;
   --text-primary: #dfdfdf;
-  --text-secondary: #1f1f1f;
+  --text-secondary: #1f1f1f;  
 }
 
 * {
@@ -109,4 +109,23 @@ footer {
   margin-bottom: 3rem;
   border-top: dashed 2px var(--text-primary);
   width: 100%;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-badges {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: var(--text-primary);
+}
+
+.fa-twitter:before {
+    content: '𝕏';
+    font-family: unset;
+    font-weight: bold;
 }
