@@ -3,7 +3,6 @@ import { FaGithub, FaTwitter } from "react-icons/fa"
 export default function Footer() {
   const socialLinks = [
     { name: 'GitHub', url: 'https://github.com/Siokonbu966', icon: FaGithub},
-    { name: 'Twitter', url: 'https://x.com/Siokonbu966', icon: FaTwitter}
   ]
   return (
     <>
@@ -24,7 +23,13 @@ export default function Footer() {
               </a>
             );
           })}
-          <div className="fa-twitter"></div>
+          <a
+            className="social-badges-x fa-twitter"
+            href="https://x.com/Siokonbu966"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Twitter"
+          ></a>
         </div>
         <p>Copyright &copy; Siokonbu966</p>
       </footer>
