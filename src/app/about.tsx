@@ -1,5 +1,4 @@
 import Footer from "@/components/Footer";
-import ContactSection from "@/components/sections/ContactSection";
 import HistorySection from "@/components/sections/HistorySection";
 import ProfileSection from "@/components/sections/ProfileSection"
 import SkillsSection from "@/components/sections/SkillsSection"
@@ -13,7 +12,6 @@ export default function AboutPage() {
           <ProfileSection />
           <SkillsSection />
           <WorksSection />
-          <ContactSection />
           <HistorySection />
         </div>
       </body>

@@ -1,4 +1,4 @@
-import { FaGithub, FaTwitter } from "react-icons/fa"
+import { FaGithub } from "react-icons/fa"
 
 export default function Footer() {
   const socialLinks = [
@@ -30,6 +30,20 @@ export default function Footer() {
             rel="noopener noreferrer"
             title="Twitter"
           ></a>
+          <a
+            className="social-badges nostr-badge"
+            href="https://nosta.me/5e3c2e98730757e01cdd8b219d9260a196701d64976051a889597e2353efa18e"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Nostr"
+          >
+            <img
+              src="/nostr-icon-white-transparent.svg"
+              alt="Nostr"
+              className="nostr-icon"
+              loading="lazy"
+            />
+          </a>
         </div>
         <p>Copyright &copy; Siokonbu966</p>
       </footer>
