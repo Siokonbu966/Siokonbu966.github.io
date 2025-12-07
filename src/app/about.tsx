@@ -8,10 +8,10 @@ export default function AboutPage() {
   return (
     <>
       <body>
-        <div className="sections">
+        <div className="bg-primary mx-auto w-full max-w-[60rem]">
           <ProfileSection />
           <SkillsSection />
-          <WorksSection />
+          {/* <WorksSection /> */}
           <HistorySection />
         </div>
       </body>
