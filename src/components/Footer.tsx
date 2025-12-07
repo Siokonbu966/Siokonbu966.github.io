@@ -44,6 +44,20 @@ export default function Footer() {
               loading="lazy"
             />
           </a>
+          <a
+            className="social-badges nostr-badge"
+            href="https://qiita.com/Siokonbu"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Qiita"
+          >
+            <img
+              src="/qiita-white-icon.png"
+              alt="Qiita"
+              className="nostr-icon"
+              loading="lazy"
+            />
+          </a>
         </div>
         <p>Copyright &copy; Siokonbu966</p>
       </footer>
