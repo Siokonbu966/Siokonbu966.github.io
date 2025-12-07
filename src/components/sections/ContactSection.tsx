@@ -12,8 +12,8 @@ export default function ContactSection() {
           </a>
         </li>
         <li>
-          <a href="https://nostter.app/nprofile1qywhwumn8ghj7mnjv4kxz7fddfczucedwd6x2mrvv9ezumn9wsqjqamnwvaz7tmjv4kxz7fddfczumn0wd68ytnhd9ex2erwv46zu6nsqyxhwumn8ghj77tpvf6jumt9qyghwumn8ghj7u3wddhk56tjvyhxjmcpz3mhxue69uhhyetvv9ujuerpd46hxtnfduqs6amnwvaz7tmwdaejumr0dsq3vamnwvaz7tmjv4kxz7fwdehhxarj9e3xzmnyqqs9u0pwnpesw4lqrnwckgvajfs2r9nsr4jfwcz34zy4jl3r20h6rrscwdzzf">
-            Nostter
+          <a href="https://nosta.me/5e3c2e98730757e01cdd8b219d9260a196701d64976051a889597e2353efa18e">
+            Nostr
           </a>
         </li>
       </ul>
