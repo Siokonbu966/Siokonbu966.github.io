@@ -1,84 +1,146 @@
-@import "tailwindcss";
+/* --------------------
+        全体
+-------------------- */
 
-@layer base {
-  * {
-    @apply box-border;
-  }
-
-  html, body {
-    @apply w-full h-full;
-  }
-
-  body {
-    @apply mx-auto p-[30px] text-[#dfdfdf] bg-[#191970] flex flex-col items-center;
-  }
-
-  h1, h2, h3 {
-    @apply text-[#dfdfdf];
-  }
-
-  a {
-    @apply text-[#f4a460] no-underline;
-  }
-
-  ul {
-    @apply list-none;
-  }
-
-  li:before {
-    @apply content-['★'] text-[#dfdfdf];
-  }
-
-  table {
-    @apply border-collapse border border-solid border-[#1f1f1f] min-w-[70%] text-[#1f1f1f];
-  }
-
-  tr {
-    @apply bg-[#f0f8ff];
-  }
-
-  tr:nth-child(2n) {
-    @apply bg-[#f0f8ff];
-  }
-
-  th {
-    @apply bg-[#f0f8ff] text-[#1f1f1f];
-  }
-
-  th, td {
-    @apply border border-solid border-[#1f1f1f] p-[0.5rem];
-  }
+:root {
+  --bg-primary: #191970;
+  --bg-secondary: #f0f8ff;
+  --text-primary: #dfdfdf;
+  --text-secondary: #1f1f1f;  
 }
 
-@layer components {
-  .icon {
-    @apply w-[13rem] h-[13rem];
-  }
-
-  .social-links {
-    @apply flex flex-row justify-center items-center;
-  }
-
-  .social-badges {
-    @apply px-[10px] mt-[18px] mb-[10px] text-[#dfdfdf];
-  }
-
-  .social-badges-x {
-    @apply px-[10px] text-[#dfdfdf];
-  }
-
-  .nostr-icon {
-    @apply w-[2.5rem] h-[2.5rem] block;
-  }
+* {
+  box-sizing: border-box;
 }
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0 auto;
+  padding: 30px;
+  color: var(--text-primary);
+  background-color: var(--bg-primary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sections {
+  margin: auto;
+  padding: auto;
+  max-width: 60rem;
+  width: 100%;
+}
+/* --------------------
+        見出し
+-------------------- */
+
+h1, h2, h3 {
+  color: var(--text-primary);
+  border-bottom: dashed 0.1em var(--text-primary);
+}
+
+/* --------------------
+        リンク
+-------------------- */
+
+a {
+  color: #f4a460;
+  text-decoration: none;
+}
+
+/* --------------------
+        アイコン
+-------------------- */
+
+.icon {
+  width: 13rem;
+  height: 13rem;
+}
+/* --------------------
+        リスト
+-------------------- */
+
+ul {
+  list-style: none;
+}
+li:before {
+  content: "★";
+  color: var(--text-primary);
+}
+
+/* --------------------
+          表
+-------------------- */
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  border: solid 1px var(--text-secondary);
+  min-width: 70%;
+  color: var(--text-secondary);
+}
+tr {
+  background-color: var(--bg-secondary);
+}
+tr:nth-child(2n) {
+  background-color: var(--bg-secondary);
+}
+th {
+  background: var(--bg-secondary);
+  color: var(--text-secondary);
+}
+th, td {
+  border: solid 1px var(--text-secondary);
+  padding: 0.5rem;
+}
+
+/* --------------------
+          フッター
+-------------------- */
 
 footer {
-  @apply text-center mt-[3rem] pt-[2rem] mb-[3rem] border-t-2 border-dashed border-[#dfdfdf] w-full;
+  text-align: center;
+  margin-top: 3rem;
+  padding-top: 2rem;
+  margin-bottom: 3rem;
+  border-top: dashed 2px var(--text-primary);
+  width: 100%;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-badges {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 18px;
+  margin-bottom: 10px;
+  color: var(--text-primary);
+}
+
+.social-badges-x {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: var(--text-primary);
 }
 
 .fa-twitter:before {
-  content: '𝕏';
-  font-family: unset;
-  font-weight: bold;
-  font-size: 2.5rem;
+    content: '𝕏';
+    font-family: unset;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.nostr-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  display: block;
 }
