@@ -6,7 +6,8 @@ export default function Footer() {
   ]
   return (
     <>
-      <footer className="size-full p-2 mt-[3rem] border-t border-white/50">
+      <footer className="p-[2rem] mt-auto">
+        <div className="size-full border-t border-white/50"></div>
         <div className="mx-auto max-w-5xl">
           <div className="social-links">
             {socialLinks.map((link) => {

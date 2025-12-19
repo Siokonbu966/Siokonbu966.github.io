@@ -7,8 +7,8 @@ import WorksSection from "@/components/sections/WorksSection";
 export default function AboutPage() {
   return (
     <>
-      <div className="bg-blue-900 text-white">
-        <div className="mx-auto max-w-5xl min-h-screen sm:px-6 lg:px-8">
+      <div className="bg-blue-900 text-white min-h-screen">
+        <div className="mx-auto max-w-5xl sm:px-6 lg:px-8">
           <ProfileSection />
           <SkillsSection />
           {/* <WorksSection /> */}

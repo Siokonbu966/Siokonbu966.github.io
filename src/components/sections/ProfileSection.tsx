@@ -2,7 +2,7 @@ export default function ProfileSection() {
   return (
     <>
       <div className="pt-[3rem]">
-        <img className="w-2xs" src="siokonbu02_icon.jpg" />
+        <img className="w-[12rem] sm:w-[14rem] md:w-[16rem] lg:w-[18rem]" src="siokonbu02_icon.jpg" />
         <h1 className="pt-[2rem] text-3xl font-bold">Siokonbu</h1>
         <div className="mt-1 border-t border-white/20"></div>
 
