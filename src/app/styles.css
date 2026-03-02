@@ -1,8 +1,9 @@
+@import "tailwindcss";
 /* --------------------
         全体
 -------------------- */
 
-:root {
+/* :root {
   --bg-primary: #191970;
   --bg-secondary: #f0f8ff;
   --text-primary: #dfdfdf;
@@ -33,50 +34,50 @@ body {
   padding: auto;
   max-width: 60rem;
   width: 100%;
-}
+} */
 /* --------------------
         見出し
 -------------------- */
 
-h1, h2, h3 {
+/* h1, h2, h3 {
   color: var(--text-primary);
   border-bottom: dashed 0.1em var(--text-primary);
-}
+} */
 
 /* --------------------
         リンク
 -------------------- */
 
-a {
+/* a {
   color: #f4a460;
   text-decoration: none;
-}
+} */
 
 /* --------------------
         アイコン
 -------------------- */
 
-.icon {
+/* .icon {
   width: 13rem;
   height: 13rem;
-}
+} */
 /* --------------------
         リスト
 -------------------- */
 
-ul {
+/* ul {
   list-style: none;
 }
 li:before {
   content: "★";
   color: var(--text-primary);
-}
+} */
 
 /* --------------------
           表
 -------------------- */
 
-table {
+/* table {
   border-spacing: 0;
   border-collapse: collapse;
   border: solid 1px var(--text-secondary);
@@ -96,12 +97,12 @@ th {
 th, td {
   border: solid 1px var(--text-secondary);
   padding: 0.5rem;
-}
+} */
 
 /* --------------------
           フッター
 -------------------- */
-
+/*
 footer {
   text-align: center;
   margin-top: 3rem;
@@ -109,7 +110,7 @@ footer {
   margin-bottom: 3rem;
   border-top: dashed 2px var(--text-primary);
   width: 100%;
-}
+} */
 
 .social-links {
   display: flex;
