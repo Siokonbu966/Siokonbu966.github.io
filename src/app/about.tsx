@@ -11,7 +11,6 @@ export default function AboutPage() {
         <div className="mx-auto max-w-5xl sm:px-6 lg:px-8">
           <ProfileSection />
           <SkillsSection />
-          {/* <WorksSection /> */}
           <HistorySection />
         </div>
         <Footer />
