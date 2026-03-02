@@ -11,19 +11,9 @@ export default function ProfileSection() {
           <div className="mt-[1rem]">
             <p>
               一般エンジニア志望学生<br />
-              今はWebとかを勉強していて、<br />
+              今はフロントエンドを勉強しています。<br />
               セキュリティやネットワークについても学びたい。
             </p>
-          </div>
-        </div>
-
-        <div className="pt-[1rem]">
-          <h3 className="text-xl font-bold">Profile</h3>
-          <div className="mt-[1rem]">
-            <ul>
-              <li>名前: Siokonbu</li>
-              <li>所在地: 日本</li>
-            </ul>
           </div>
         </div>
       </div>
