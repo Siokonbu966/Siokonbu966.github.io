@@ -8,5 +8,5 @@ export default function rootLayout() {
         <AboutPage />
       </body>
     </html>
-  )
+  );
 }
