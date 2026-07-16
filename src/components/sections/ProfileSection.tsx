@@ -1,22 +1,31 @@
 export default function ProfileSection() {
   return (
-    <>
-      <div className="pt-12">
-        <img className="w-48 sm:w-56 md:w-[16rem] lg:w-[18rem]" src="siokonbu02_icon.jpg" />
-        <h1 className="pt-8 text-3xl font-bold">Siokonbu</h1>
-        <div className="mt-1 border-t border-white/20"></div>
-
-        <div className="pt-4">
-          <h2 className="text-xl font-bold">About</h2>
-          <div className="mt-4">
-            <p>
-              一般エンジニア志望学生<br />
-              Webとかをふわふわと触っています。<br />
-              最近はNixにどハマりしてます。
-            </p>
+    <section className="px-6 pt-16 sm:pt-24">
+      <div className="mx-auto max-w-5xl">
+        <div className="flex items-center gap-16">
+          <img
+            className="w-32 rounded-lg shadow-lg sm:w-40 md:w-[12rem] lg:w-[14rem]"
+            src="siokonbu02_icon.jpg"
+            alt="Siokonbu"
+          />
+          <div>
+            <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl">
+              Siokonbu
+            </h1>
           </div>
         </div>
+
+        <div className="mt-12 max-w-2xl text-left">
+          <h2 className="text-3xl font-bold text-white sm:text-4xl">About</h2>
+          <div className="mt-4 h-0.5 w-16 bg-blue-600" />
+          <p className="mt-8 text-lg leading-relaxed text-slate-300">
+            Webとかをふわふわと触っています。<br />
+            最近はNixにハマってたり。 <br />
+            スプラトゥーンを愛してます。<br />
+            最近の弱点はqwerty配列でタイピングができないこと。
+          </p>
+        </div>
       </div>
-  </>
+    </section>
   );
 }

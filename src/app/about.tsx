@@ -1,17 +1,17 @@
 import Footer from "@/components/Footer";
 import ProfileSection from "@/components/sections/ProfileSection"
 import SkillsSection from "@/components/sections/SkillsSection"
+import SnsSection from "@/components/sections/SnsSection"
 
 export default function AboutPage() {
   return (
-    <>
-      <div className="bg-blue-900 text-white min-h-screen">
-        <div className="mx-auto max-w-5xl sm:px-6 lg:px-8">
-          <ProfileSection />
-          <SkillsSection />
-        </div>
-        <Footer />
+    <div className="min-h-screen bg-[#0a0a0f] text-white">
+      <div className="mx-auto">
+        <ProfileSection />
+        <SkillsSection />
+        <SnsSection />
       </div>
-    </>
+      <Footer />
+    </div>
   );
 }
