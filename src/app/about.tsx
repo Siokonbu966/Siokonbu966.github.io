@@ -4,7 +4,7 @@ import SkillsSection from "@/components/sections/SkillsSection"
 
 export default function AboutPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 text-white">
+    <div className="min-h-screen bg-[#0a0a0f] text-white">
       <div className="mx-auto">
         <ProfileSection />
         <SkillsSection />
