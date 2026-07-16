@@ -8,7 +8,7 @@ export default function AboutPage() {
     <div className="min-h-screen bg-[#0a0a0f] text-white">
       <div className="mx-auto">
         <ProfileSection />
-        { /** <SkillsSection /> */ }
+        <SkillsSection />
         <SnsSection />
       </div>
       <Footer />
