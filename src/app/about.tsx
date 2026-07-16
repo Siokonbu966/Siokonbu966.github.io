@@ -4,14 +4,12 @@ import SkillsSection from "@/components/sections/SkillsSection"
 
 export default function AboutPage() {
   return (
-    <>
-      <div className="bg-blue-900 text-white min-h-screen">
-        <div className="mx-auto max-w-5xl sm:px-6 lg:px-8">
-          <ProfileSection />
-          <SkillsSection />
-        </div>
-        <Footer />
+    <div className="min-h-screen bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 text-white">
+      <div className="mx-auto">
+        <ProfileSection />
+        <SkillsSection />
       </div>
-    </>
+      <Footer />
+    </div>
   );
 }
